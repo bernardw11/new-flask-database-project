@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Welcome!</title>
+        <link rel="stylesheet" type="text/css" href="static/css/style.css?q={{ time }}" />
+    </head>
+    <body>
+        <h1>Welcome to Pokemon Thing!</h1>
+        <p>What Pokemon's data do you want?</p>
+        <form method="post" action="/pokemon">
+            <input type="text" name="poke_choice" placeholder="Enter pokemon name"/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
